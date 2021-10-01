@@ -11,6 +11,8 @@ function clock(now) {
     if (mins < 10) {
         mins = `0` + mins;
     }
+
+    
     if (hs < 10) {
         hs = `0` + hs;
     }
