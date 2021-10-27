@@ -24,4 +24,3 @@ function clock(now) {
     time.innerHTML = hs + ':' + mins + ':' + secs + ':' + miliss;
 }
 setInterval(clock, 0);
-clock();
